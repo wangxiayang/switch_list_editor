@@ -1,0 +1,6 @@
+.classpath
+.project
+.settings/
+.gitignore~
+war/WEB-INF/lib/
+war/WEB-INF/classes/

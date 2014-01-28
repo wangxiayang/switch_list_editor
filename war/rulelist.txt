@@ -1,0 +1,14 @@
+; Summary: rule list of horzwxy
+; Author: Wang Xiayang (wangxiayang.fdt@gmail.com)
+; Date: 2014-01-26
+; URL: http://wxyfileserver.appspot.com
+
+#BEGIN
+
+[Wildcard]
+*://*.chrome.com/*
+*://*.google.com/*
+*://*.google.com.*/*
+*://*.youtube.com/*
+
+#END

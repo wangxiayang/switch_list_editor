@@ -1,0 +1,4 @@
+*://*.chrome.com/*
+*://*.google.com/*
+*://*.google.com.*/*
+*://*.youtube.com/*

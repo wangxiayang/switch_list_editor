@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xmlns="http://java.sun.com/xml/ns/javaee"
+xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
+	<servlet>
+		<servlet-name>AddRule</servlet-name>
+		<servlet-class>me.horzwxy.server.fileserver.AddRuleServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>AddRule</servlet-name>
+		<url-pattern>/addrule</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>RemoveRule</servlet-name>
+		<servlet-class>me.horzwxy.server.fileserver.RemoveRuleServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>RemoveRule</servlet-name>
+		<url-pattern>/removerule</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>ListRules</servlet-name>
+		<servlet-class>me.horzwxy.server.fileserver.ListRulesServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ListRules</servlet-name>
+		<url-pattern>/listrules</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>GenerateTxt</servlet-name>
+		<servlet-class>me.horzwxy.server.fileserver.GenerateTxtServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>GenerateTxt</servlet-name>
+		<url-pattern>/generatetxt</url-pattern>
+	</servlet-mapping>
+	<welcome-file-list>
+		<welcome-file>index.html</welcome-file>
+	</welcome-file-list>
+</web-app>
